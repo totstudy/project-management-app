@@ -1,0 +1,72 @@
+:root {
+  --primary-dark: #b5d7f5;
+  --secondary-dark: #102d44;
+  --ternary-dark: #1e3851;
+
+  --teal: #2dd4bf;
+}
+
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/Nunito-Regular.ttf") format("truetype");
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  color: black;
+  font-family: Nunito;
+  background-color: var(--primary-dark);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: white;
+}
+
+svg {
+  display: block;
+}
+
+input {
+  background-color: inherit;
+  border: 2px solid var(--ternary-dark);
+  color: inherit;
+  font-family: inherit;
+  padding: 0.5rem;
+  transition: border-color 300ms;
+  outline: none;
+  /* display: block; */
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: var(--teal);
+}
+
+textarea {
+  background-color: inherit;
+  border: 2px solid var(--ternary-dark);
+  color: inherit;
+  font-family: inherit;
+  padding: 0.5rem;
+  transition: border-color 300ms;
+  outline: none;
+  /* display: block; */
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  border-color: var(--teal);
+}
+
+
