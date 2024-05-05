@@ -23,6 +23,9 @@ importers:
       '@adonisjs/session':
         specifier: ^6.4.0
         version: 6.4.0(@adonisjs/core@5.9.0)
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
